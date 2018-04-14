@@ -1,0 +1,15 @@
+{
+  "name": "arkanoid-battle",
+  "version": "1.0.0",
+  "description": "experimental multiplayer arkanoid pvp game",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "vasilis antonakis",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.0"
+  }
+}
