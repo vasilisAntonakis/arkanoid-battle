@@ -7,7 +7,6 @@ When a player leaves the game, the oldest spectator will be the new player (agai
 1. make sure you have node.js installed
 2. download and `npm install`
 3. `npm start`
-4. it will log the server's ip and port
 ## Play the game
 1. visit server in any browser
 2. if a player is available you instantly controll it
