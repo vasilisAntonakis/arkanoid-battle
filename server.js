@@ -74,6 +74,6 @@ io.on('connection', (socket) => {
 });
 
 http.listen(3000, () => {
-    const ip = require('os').networkInterfaces()['Ethernet'].filter(ni => ni.family === 'IPv4')[0].address
-    console.log(`server started on: http://${ip}:3000`);
+    // const ip = require('os').networkInterfaces()['Ethernet'].filter(ni => ni.family === 'IPv4')[0].address
+    // console.log(`server started on: http://${ip}:3000`);
 });
